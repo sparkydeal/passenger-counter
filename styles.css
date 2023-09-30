@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+:root {
+    --text-clr: #020202;
+    --reset-clr: #005C69;
+    --heading-clr: #5E0035;
+    --save-clr: #023618;
+    --background-clr: #5E0035;
+
+}
+*, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: 'Pixelify Sans', cursive;
+    background: var(--background-clr);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+}
+.container {
+    background-image: url("img/train-station-people-hugging.gif");
+    background-size: cover;
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+    border: 1px solid;
+    width: 90%;
+    margin: 4em auto;
+    padding: 2em;
+    border: solid white 2px;
+    border-radius: 2em;
+    max-width: 800px;
+    
+}
+.heading, .buttons {
+    /* border: 1px solid; */
+
+}
+.buttons {
+    
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    
+    
+   
+    
+    
+
+
+}
+.button {
+    border: 2px solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 1.5em;
+    width: 200px;
+    
+    opacity: .7;
+    border-radius: 1em;
+}
+.button:hover {
+    opacity: 1;
+    
+}
+h1, #resultsHeading {
+    font-size: 80px;
+    color: var(--heading-clr);
+    text-shadow: 2px 2px 2px black;
+    
+}
+#count-el, #results {
+    color: var(--text-clr);
+}
+
+
+.increment-btn {
+    background: var(--heading-clr);
+}
+
+
+
+.save-btn {
+    background: var(--save-clr);
+}
+.reset-btn {
+    background: var(--reset-clr);
+    
+}
+
+#results, #count-el {
+    
+    
+}
+#resultsHeading {
+    font-size: 2.5em;
+    
+}
+#results {
+    font-size: 2em;
+}
+
+    
+#results-section {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* border: 1px solid; */
+    
+    
+}
